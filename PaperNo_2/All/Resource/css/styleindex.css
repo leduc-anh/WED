@@ -1,0 +1,156 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    width: 33%;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.header-image {
+    text-align: center;
+}
+
+.header-image>img {
+    width: 50%;
+    text-align: center;
+}
+
+.menu {
+    background-color: #ea6c12;
+}
+
+.menu>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.menu>ul>li {
+    padding: 15px 20px;
+}
+
+.menu>ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+.best-seller-title{
+    text-align: center;
+    margin: 25px 0;
+}
+.best-seller-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+.best-seller-images>div{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+}
+.down-image{
+    justify-content: end;
+}
+.down-image-text{
+    margin-bottom: auto;
+    background-color: #ea6c12;
+    color: white;
+    width: 80%;
+    font-style: italic;
+}
+.best-seller-images>div>img{
+    width: 80%;
+}
+.banner>img {
+    width: 100%;
+}
+.sell-off{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sell-off-image{
+    width: 30%;
+    text-align: center;
+}
+.sell-off-text{
+    width: 25%;
+    text-align: justify;
+}
+.sell-off-text h2{
+    color: #ea6c12;
+}
+.list-of-motorcycles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-of-motorcycles-image{
+    margin-right: 30px;
+}
+.list-of-motorcycles-form h2,h3{
+    color:white;
+    background-color: rgb(9, 167, 167);
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+}
+.list-of-motorcycles-form {
+    background-color: rgb(214, 214, 214);
+}
+.list-of-motorcycles-form label{
+    margin: 20px;
+}
+.list-of-motorcycles-form select,input{
+    margin: 15px;
+    padding: 10px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form select{
+    width: 30%;
+    margin-right: 205px;
+}
+.form input{
+    width: 30%;
+    margin-right: 180px;
+}
+.adress input{
+    width: 50%;
+    margin-right: 65px;
+}
+.Buy-now{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Buy-now p{
+    background-color: rgb(255, 128, 0);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.footer{
+    margin-top: 50px;
+    background-color: rgb(67, 65, 64);
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
