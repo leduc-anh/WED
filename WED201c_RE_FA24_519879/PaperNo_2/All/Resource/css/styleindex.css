@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.heading {
+  text-align: center;
+  color: rgb(12, 193, 193);
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.content1 {
+  margin: 50px 10px;
+}
+.content1 img {
+  margin-top: 15px;
+  width: 100%;
+}
+.content2 {
+  display: flex;
+  margin: 10px;
+}
+.content2 img {
+  width: 100%;
+}
+.content2-text h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.content2-text p {
+  text-align: justify;
+  line-height: 2.5;
+}
+.content2-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.content2-price p {
+  padding: 10px;
+  color: white;
+  background-color: rgb(12, 193, 193);
+}
+.content3 img {
+  width: 100%;
+}
+.content3 {
+  margin: 50px 10px;
+}
+.content3-text h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.content3-text p {
+  text-align: justify;
+  line-height: 2.5;
+}
+.content3-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.content3-form button {
+  padding: 13px;
+  background-color: rgb(240, 122, 39);
+  color: white;
+}
+.footer {
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  background-color: rgb(12, 193, 193);
+}
+@media (max-width: 720px) {
+  .content2 {
+    display: block;
+  }
+  .content2-text h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .content3-text h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .navbar-nav {
+    display: block;
+  }
+}
