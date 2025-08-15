@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  padding: 0 15px 20px 15px;
+  border-bottom: 1px solid black;
+}
+.header img {
+  width: 70%;
+}
+.header-search button {
+  background-color: coral;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+.header-search input {
+  padding: 8px;
+  width: 200px;
+}
+.title {
+  text-align: center;
+  color: coral;
+  margin: 25px 0;
+}
+.content1 {
+  display: flex;
+}
+.content1-images {
+  display: flex;
+}
+.content1-small-images {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5px 0 50px;
+}
+.content1-small-images img {
+  height: 24%;
+}
+.content1-big-image {
+  height: 700px;
+}
+.content1-big-image img {
+  width: 100%;
+  height: 100%;
+}
+.content1-text {
+  margin-left: 100px;
+  width: 40%;
+}
+.content1-text h2 {
+  margin-top: 0;
+  color: rgb(47, 168, 168);
+}
+.content1-text del {
+  color: red;
+}
+.available {
+  color: rgb(47, 168, 168);
+  font-style: italic;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+.content1-text input {
+  width: 30%;
+}
+.quantity label {
+  margin-right: 20px;
+}
+.size label {
+  margin-right: 45px;
+}
+.content1-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content1-button div {
+  margin: 20px 10px;
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(47, 168, 168);
+}
