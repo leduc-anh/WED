@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.header img {
+  width: 60%;
+}
+.search input {
+  width: 300px;
+  padding: 5px;
+}
+.search button {
+  background-color: rgb(255, 132, 0);
+  color: white;
+  padding: 7px;
+  border: none;
+}
+.menu {
+  background-color: #ffdede;
+}
+.menu > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.menu > ul > li {
+  padding: 15px 20px;
+}
+.menu > ul > li > a {
+  color: black;
+  text-decoration: none;
+}
+.content1 {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.banner {
+  width: 50%;
+  margin-right: 30px;
+}
+.banner img {
+  width: 100%;
+}
+
+.form {
+  width: 30%;
+  background-color: #ffdede;
+  text-align: center;
+}
+.form-input {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.form-input label {
+  font-size: larger;
+  margin-right: 20px;
+}
+.form-input input {
+  width: 50%;
+  padding: 5px;
+  margin-right: 20px;
+}
+.send {
+  background-color: rgb(255, 132, 0);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+.title {
+  text-align: center;
+  color: rgb(255, 132, 0);
+}
+.dishes {
+  display: flex;
+  justify-content: space-between;
+}
+.dish {
+  width: 45%;
+  display: flex;
+  border: 1px solid #ccc;
+  margin: 10px 40px;
+  border-radius: 5px;
+}
+.dish img {
+  width: 250px;
+  height: 200px;
+}
+.dish-info {
+  margin-left: 10px;
+}
+.add-cart {
+  margin-top: 70px;
+  margin-left: 100px;
+}
+.add-cart button {
+  background-color: rgb(255, 132, 0);
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: white;
+  border: none;
+}
+.cart {
+  margin: 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.cart h2 {
+  background-color: #ffdede;
+  padding: 5px;
+  margin-top: 0;
+}
+.cart h3 {
+  margin-left: 20px;
+}
+.footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  color: black;
+  text-align: center;
+  background-color: #ffdede;
+}
